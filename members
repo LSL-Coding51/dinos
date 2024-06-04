@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>The Dino Gang - Members</title>
+</head>
+<body>
+    <header>
+        <h1 class="topPageTitle">The Dino Gang</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="members">
+            <h2>Meet Our Members</h2>
+            <div class="member-grid">
+                <div class="member">
+                    <img src="images/member1.jpg" alt="John Doe">
+                    <h3>John Doe</h3>
+                    <p>Paleontologist</p>
+                    <p>John is a passionate paleontologist with 10 years of experience in dinosaur research.</p>
+                </div>
+                <div class="member">
+                    <img src="images/member2.jpg" alt="Jane Smith">
+                    <h3>Jane Smith</h3>
+                    <p>Dino Enthusiast</p>
+                    <p>Jane loves everything about dinosaurs and enjoys educating others about them.</p>
+                </div>
+                <div class="member">
+                    <img src="images/member3.jpg" alt="Emily Brown">
+                    <h3>Emily Brown</h3>
+                    <p>Graphic Designer</p>
+                    <p>Emily creates stunning dinosaur-themed artwork and graphics for our group.</p>
+                </div>
+                <div class="member">
+                    <img src="images/member4.jpg" alt="Michael Johnson">
+                    <h3>Michael Johnson</h3>
+                    <p>Historian</p>
+                    <p>Michael has a deep knowledge of the history and evolution of dinosaurs.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 The Dino Gang. All rights reserved.</p>
+    </footer>
+</body>
+</html>
