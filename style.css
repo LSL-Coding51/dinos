@@ -58,12 +58,50 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .topPageTitle {
     font-size: 50px;
     text-align: center;
+}
+
+#members {
+    text-align: center;
+}
+
+.member-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.member h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.member p {
+    margin: 5px 0;
+}
+
+.member:hover {
+    transform: scale(1.05);
 }
